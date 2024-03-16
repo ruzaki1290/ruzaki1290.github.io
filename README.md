@@ -40,15 +40,15 @@
 4. Launch Visual Studio Code (VS Code).
 5. Open the integrated terminal within VS Code.
 6. Execute the following command to clone the repository:  
-   
-   ```
+
+   ```html
    git clone <repository-URL>
    ```
-   
+
    Replace the `<repository-URL` with the URL you copied in step 3.  
 
    Once you have completed these steps, you are ready to start working on the project on your local machine!
-   
+
 ## Contributing
 
 🤝 For collaboration requests regarding this project or any other projects, please feel free to contact me at my [email](mailto:rus.zakirov@triosstudent.com?subject=) address. I welcome the opportunity to collaborate with you! 🙂  
