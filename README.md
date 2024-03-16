@@ -1,53 +1,75 @@
-# Chirpy Starter
+# ruzaki1290 Portfolio Website
 
-[![Gem Version](https://img.shields.io/gem/v/jekyll-theme-chirpy)][gem]&nbsp;
-[![GitHub license](https://img.shields.io/github/license/cotes2020/chirpy-starter.svg?color=blue)][mit]
+## Description
 
-When installing the [**Chirpy**][chirpy] theme through [RubyGems.org][gem], Jekyll can only read files in the folders
-`_data`, `_layouts`, `_includes`, `_sass` and `assets`, as well as a small part of options of the `_config.yml` file
-from the theme's gem. If you have ever installed this theme gem, you can use the command
-`bundle info --path jekyll-theme-chirpy` to locate these files.
+🤖 This is personal portfolio website of Russell Zakirov aka ruzaki1290. The purpose of this project is to display the skills and mastery in using GitHub, building and deploying a website and using command line. More details on instalation, usage, technogy used and etc will be outlined in the next pages.  
 
-The Jekyll team claims that this is to leave the ball in the user’s court, but this also results in users not being
-able to enjoy the out-of-the-box experience when using feature-rich themes.
+## Table of Contents
 
-To fully use all the features of **Chirpy**, you need to copy the other critical files from the theme's gem to your
-Jekyll site. The following is a list of targets:
-
-```shell
-.
-├── _config.yml
-├── _plugins
-├── _tabs
-└── index.html
-```
-
-To save you time, and also in case you lose some files while copying, we extract those files/configurations of the
-latest version of the **Chirpy** theme and the [CD][CD] workflow to here, so that you can start writing in minutes.
-
-## Prerequisites
-
-Follow the instructions in the [Jekyll Docs](https://jekyllrb.com/docs/installation/) to complete the installation of
-the basic environment. [Git](https://git-scm.com/) also needs to be installed.
-
+- [Installation](https://github.com/ruzaki1290/ruzaki1290.github.io/wiki/Installation)
+- [Technology](https://github.com/ruzaki1290/ruzaki1290.github.io/wiki/Technology)
+- [Usage](https://github.com/ruzaki1290/ruzaki1290.github.io/wiki/Usage)
+- [Contributing](https://github.com/ruzaki1290/ruzaki1290.github.io/wiki/Contributing)
+- [Credits](https://github.com/ruzaki1290/ruzaki1290.github.io/wiki/Credits)
+- [License](https://github.com/ruzaki1290/ruzaki1290.github.io/wiki/License)
+  
 ## Installation
 
-Sign in to GitHub and [**use this template**][use-template] to generate a brand new repository and name it
-`USERNAME.github.io`, where `USERNAME` represents your GitHub username.
+💿 In order to be able to work on this project, first you would have to copy the code from my repo on GitHub and clone it to your local machine. You will find detailed instructions on how to do it bellow 👇
 
-Then clone it to your local machine and run:
+![Installation](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExZmdkdG5zaDJvd2VwbHBwZTcxaXhsdm5zNnB2MG40ajNmaWU0MGp3ZCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/dEvdHWzwSLNVEDduWz/giphy.gif)  
 
-```console
-$ bundle
-```
+## Technology
+
+💾 You will find a list of technologies used throughout this project bellow 👇
+
+1. [Git](https://git-scm.com/)
+2. [VS Code](https://code.visualstudio.com/)
+3. [Ruby](https://www.ruby-lang.org/en/)
+4. [Linux](https://en.wikipedia.org/wiki/Linux)
+5. [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
+6. [Markdown](https://www.markdownguide.org/)  
 
 ## Usage
 
-Please see the [theme's docs](https://github.com/cotes2020/jekyll-theme-chirpy#documentation).
+⚙️ To setup this project on your local machine, follow these steps:
+
+1. Visit [github.com](https://github.com/)
+2. Navigate to [ruzaki1290.github.io.](https://github.com/ruzaki1290/ruzaki1290.github.io) repository.
+3. Locate the code button and copy the repository's URL.
+4. Launch Visual Studio Code (VS Code).
+5. Open the integrated terminal within VS Code.
+6. Execute the following command to clone the repository:  
+   
+   ```
+   git clone <repository-URL>
+   ```
+   
+   Replace the `<repository-URL` with the URL you copied in step 3.  
+
+   Once you have completed these steps, you are ready to start working on the project on your local machine!
+   
+## Contributing
+
+🤝 For collaboration requests regarding this project or any other projects, please feel free to contact me at my [email](mailto:rus.zakirov@triosstudent.com?subject=) address. I welcome the opportunity to collaborate with you! 🙂  
+
+## Credits
+
+This project was made solely by ruzaki1290, but it would never come into light, without these contributors:
+
+- Big thanks to [Techno Tim](https://www.youtube.com/@TechnoTim) on his YouTube channel, who guided the author through building and launching this project from start to finish.
+
+- Special thanks to [Cotes Chung](https://github.com/cotes2020) for providing [chirpy](https://github.com/cotes2020/jekyll-theme-chirpy) theme, on which this project's website was built on.
+
+- The author also expresses his gratitude to [Michael Lewis](https://github.com/dakuma) for providing the author with necessary skills and knowledge to build this project.  
 
 ## License
 
 This work is published under [MIT][mit] License.
+
+MIT License Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions: The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 [gem]: https://rubygems.org/gems/jekyll-theme-chirpy
 [chirpy]: https://github.com/cotes2020/jekyll-theme-chirpy/
